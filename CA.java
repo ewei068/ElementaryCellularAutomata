@@ -28,7 +28,7 @@ public class CA {
             int total = 0;
 
             if (_current[i] == 1) {
-                g.fillRect(i, y, 1, 1);
+                g.fillRect(i*2, y*2, 2, 2);
             }
 
             if (i == 0) {

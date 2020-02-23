@@ -24,8 +24,8 @@ public class Drawing extends Canvas {
     public void paint(Graphics g) {
         //Rectangle bb = new Rectangle(100, 100, 200, 200);
         //mickey(g, bb);
-        int[] start = new int[399];
-        start[199] = 1;
+        int[] start = new int[199];
+        start[99] = 1;
         CA _ca = new CA(rule, start);
 
         int x = 0;
